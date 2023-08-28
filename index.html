@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="all">
+        <div class="form-group">
+            <input class="form-control" type="number" id="montant" name="montant" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="number" id="pourcentage" name="pourcentage" />
+        </div>
+        <div class="form-group">
+            <button class="form-control btn btn-primary" onclick="calc()" id="mySubmit">Calculer le pourboire</button>
+        </div>
+        <h3>Montant du pourboire : €<span id="pourboire"></span></h3>
+        <h3>Montant total : €<span id="total"></span></h3>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
